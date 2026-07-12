@@ -1,6 +1,6 @@
-Healthcare Patient No-Show Optimization
+**Healthcare Patient No-Show Optimization**
 
-Project Overview
+**Project Overview**
 
 Healthcare organizations face significant operational and financial challenges when patients miss scheduled appointments. Missed appointments reduce provider utilization, increase waiting times, delay access to care, and result in avoidable revenue loss.
 
@@ -8,7 +8,7 @@ This project demonstrates how Healthcare Business Intelligence can be used to id
 
 Using SQL for data analysis and Power BI for interactive reporting, the project explores the key drivers of missed appointments across departments, waiting times, appointment schedules, and patient characteristics.
 
-Business Problem
+**Business Problem**
 
 Hospitals need to understand:
 
@@ -24,7 +24,7 @@ Which interventions could reduce future no-shows?
 
 This analysis provides insights that support operational planning, resource allocation, and revenue protection.
 
-Business Questions
+**Business Questions**
 
 This project answers the following business questions:
 
@@ -42,29 +42,30 @@ Which appointment time slots experience the highest number of no-shows?
 
 How do no-show rates vary across weekdays and months?
 
-Dataset
+**Dataset**
 
 The project uses four relational datasets representing a simplified hospital appointment system.
 
-Table Description
+**Table	Description**
 
-Patient: Patient demographics and insurance information
+Patient:	Patient demographics and insurance information
 
-Doctor: Physician details and department assignments
+Doctor:	Physician details and department assignments
 
-Appointment: Appointment scheduling, attendance, waiting time and reminder information
+Appointment:	Appointment scheduling, attendance, waiting time and reminder information
 
-Billing: Appointment costs and estimated financial losses
+Billing:	Appointment costs and estimated financial losses
 
-Tools & Technologies
+**Tools & Technologies**
 
 Microsoft Excel
- MySQL 
- Power BI
-  DAX 
-  Git & GitHub
+MySQL
+Power BI
+DAX
+Git & GitHub
 
-Project Workflow
+
+**Project Workflow**
 
 Raw Data (Excel)
         │
@@ -89,7 +90,8 @@ Interactive Dashboard
         ▼
 Business Insights & Recommendations
 
-Dashboard Overview
+
+**Dashboard Overview**
 
 The interactive Power BI dashboard includes:
 
@@ -107,9 +109,9 @@ Appointment time slot analysis
 
 Interactive filtering by department, gender, insurance status and waiting category
 
-Key Findings
+**Key Findings**
 
-Appointment Performance
+**Appointment Performance**
 
 Total Appointments: 9,725
 
@@ -117,7 +119,7 @@ Total No-Shows: 1,888
 
 Overall No-Show Rate: 19.41%
 
-Operational Insights
+**Operational Insights**
 
 Orthopedics recorded the highest number of missed appointments.
 
@@ -125,17 +127,17 @@ Patients waiting more than 31 days showed the highest no-show rate.
 
 No-show rates remained relatively consistent throughout the year, indicating an ongoing operational challenge.
 
-Financial Impact
+**Financial Impact**
 
 Estimated Revenue Loss: $325,089
 
 Missed appointments resulted in substantial financial losses across hospital departments.
 
-SMS Reminder Analysis
+**SMS Reminder Analysis**
 
 Patients receiving SMS reminders demonstrated substantially lower no-show rates than patients who did not receive reminders, highlighting the value of proactive appointment communication.
 
-Business Recommendations
+**Business Recommendations**
 
 Expand SMS reminder coverage to improve appointment attendance.
 
@@ -145,13 +147,13 @@ Prioritize intervention strategies for departments with consistently high no-sho
 
 Monitor appointments scheduled more than 30 days in advance and consider follow-up reminder workflows.
 
-Dashboard Preview
+## Dashboard Preview
 
-Executive Dashboard
+### Executive Dashboard
 
-[Dashboard Overview](dashboard/dashboard-overview.png)
+![Dashboard Overview](dashboard/dashboard-overview.png)
 
-Repository Structure
+**Repository Structure**
 
 Healthcare-Patient-No-Show-Optimization
 │
@@ -169,7 +171,7 @@ Healthcare-Patient-No-Show-Optimization
 ├── README.md
 └── LICENSE
 
-Skills Demonstrated
+**Skills Demonstrated**
 
 This project demonstrates practical experience in:
 
@@ -191,7 +193,8 @@ Business storytelling
 
 Executive reporting
 
-Author
+
+**Author**
 
 Adeniyi Tijesunimi
 
