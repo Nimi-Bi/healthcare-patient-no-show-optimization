@@ -65,30 +65,32 @@ DAX
 Git & GitHub
 
 
-**Project Workflow**
+## Project Workflow
 
-Raw Data (Excel)
-        │
-        ▼
-Data Cleaning
-        │
-        ▼
+```text
+Raw Healthcare Data (Excel)
+            │
+            ▼
+Data Cleaning & Validation
+            │
+            ▼
 MySQL Database
-        │
-        ▼
+            │
+            ▼
 SQL Business Analysis
-        │
-        ▼
+            │
+            ▼
 Power BI Data Model
-        │
-        ▼
-DAX Measures
-        │
-        ▼
+            │
+            ▼
+DAX Measures & KPIs
+            │
+            ▼
 Interactive Dashboard
-        │
-        ▼
+            │
+            ▼
 Business Insights & Recommendations
+```
 
 
 **Dashboard Overview**
@@ -153,23 +155,32 @@ Monitor appointments scheduled more than 30 days in advance and consider follow-
 
 ![Dashboard Overview](dashboard/dashboard-overview.png)
 
-**Repository Structure**
 
-Healthcare-Patient-No-Show-Optimization
-│
-├── data/
-├── sql/
-│   ├── database.sql
-│   └── business_queries.sql
-│
-├── powerbi/
-│   └── Patient_No_Show.pbix
+## Repository Structure
+
+```text
+healthcare-patient-no-show-optimization/
 │
 ├── dashboard/
-│   └── dashboard.png
+│   ├── Healthcare No show Analysis.pbix
+│   └── dashboard-overview.png
 │
-├── README.md
-└── LICENSE
+├── data/
+│   ├── appointment.csv
+│   ├── billing.csv
+│   ├── doctor.csv
+│   └── patient.csv
+│
+├── docs/
+│   └── business_insights.md
+│
+├── sql/
+│   └── analysis_queries.sql
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+```
 
 **Skills Demonstrated**
 
@@ -203,3 +214,10 @@ Aspiring Healthcare Business Intelligence Analyst
 📌 LinkedIn: http://www.linkedin.com/in/adeniyitijesunimi
 
 📌 Portfolio:https://invincible-slash-579.notion.site/ADENIYI-TIJESUNIMI-6e6d2fbaf62d8386880781d2a25240f5?pvs=73
+
+## Future Improvements
+
+- Build predictive no-show risk models.
+- Integrate real-time appointment monitoring.
+- Develop department-level operational KPI dashboards.
+- Automate data refresh using SQL workflows.
